@@ -2,3 +2,6 @@ name = "CART"
 uuid = "20bfb232-20b7-11e9-2ca0-75e00bff641a"
 authors = ["Brian Rogoff <brogoff@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
