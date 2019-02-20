@@ -47,11 +47,8 @@ struct Decision <: Node
     true_branch::Node
     false_branch::Node
     function Decision(question::Question,
-                           true_branch::Node,
-                           false_branch::Node)
-        question = question
-        true_branch = true_branch
-        false_branch = false_branch
+                      true_branch::Node,
+                      false_branch::Node)
         new(question, true_branch, false_branch)
     end
 end
